@@ -1,5 +1,4 @@
 package studentresult.management.springbootbackend.controller;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -8,9 +7,7 @@ import studentresult.management.springbootbackend.exception.ResourceNotFoundExce
 import studentresult.management.springbootbackend.model.Course;
 import studentresult.management.springbootbackend.model.Student;
 import studentresult.management.springbootbackend.repository.CourseRepository;
-
 import java.util.List;
-
 @CrossOrigin("*")
 @RestController
 @RequestMapping("/api/v1/course")
